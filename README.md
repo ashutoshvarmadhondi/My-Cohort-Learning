@@ -24,7 +24,10 @@ Learning Web Dev with Hitesh Chowdary and piyush garg (Popularly known as chai a
 Chai Aur Cohort is a full-stack web development course by [Hitesh Choudhary](https://www.youtube.com/@chaiaurcode) & [Piyush Garg](https://www.youtube.com/@piyushgargdev). From foundational concepts to mastering full-stack development, this repository captures my comprehensive learning journey throughout the program.
 
 # Assignmennts
-I will be updating soon
+[My Assignments](/Assignments/README.md)
 
 # Projects
-I will be updating soon
+[My Projects](/Projects/README.md)
+
+# Blogs
+[My Blogs](/Blogs/README.md)
