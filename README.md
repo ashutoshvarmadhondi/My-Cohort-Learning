@@ -6,10 +6,10 @@ Learning Web Dev with Hitesh Chowdary and piyush garg (Popularly known as chai a
 
 <p align="center">
   <a href="https://www.linkedin.com/in/hiteshchoudhary/">
-    <img src="https://img.shields.io/badge/Hitesh_Sir_LinkedIn-%40HiteshChowdary-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Hitesh Sir LinkedIn"/>
+    <img src="https://img.shields.io/badge/Hitesh_Sir_LinkedIn:-%40HiteshChowdary-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Hitesh Sir LinkedIn"/>
   </a>
   <a href="https://www.linkedin.com/in/piyushgarg195/">
-    <img src="https://img.shields.io/badge/Piyush_Sir_LinkedIn-%40PiyushGarg-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Piyush Sir LinkedIn"/>
+    <img src="https://img.shields.io/badge/Piyush_Sir_LinkedIn:-%40PiyushGarg-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Piyush Sir LinkedIn"/>
   </a>
   <br>
   <br>
@@ -23,3 +23,8 @@ Learning Web Dev with Hitesh Chowdary and piyush garg (Popularly known as chai a
 # Introduction
 Chai Aur Cohort is a full-stack web development course by [Hitesh Choudhary](https://www.youtube.com/@chaiaurcode) & [Piyush Garg](https://www.youtube.com/@piyushgargdev). From foundational concepts to mastering full-stack development, this repository captures my comprehensive learning journey throughout the program.
 
+# Assignmennts
+I will be updating soon
+
+# Projects
+I will be updating soon
