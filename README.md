@@ -30,4 +30,4 @@ Chai Aur Cohort is a full-stack web development course by [Hitesh Choudhary](htt
 [My Projects](/Projects/README.md)
 
 # Blogs
-[My Blogs](/Blogs/README.md)
+[My Blogs](/blogs/README.md)
