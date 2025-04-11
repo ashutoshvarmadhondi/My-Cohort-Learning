@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Styling</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing:border-box;
+        }
+        nav {
+            display:flex;
+            background-color: #1f2937;
+            justify-content: space-around;
+            align-items: center;
+            padding: 20px 80px;
+            color: #ffffff
+        }
+        nav div ul {
+            display:flex;
+            gap: 20px;
+            list-style-type: none;
+            cursor: pointer;
+           
+        }
+        nav div button {
+            padding: 6px 12px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+            
+        }
+        nav div button:hover {
+            background-color: #3c5dc8;
+            color: #ffffff
+        }
+        .Hero {
+            display:flex;
+           align-items: center;
+           justify-content: space-around;
+           background-color: #1f2937;
+           color: white;
+            padding: 40px 80px;
+        }
+        .Hero div {
+            width: 50%;
+        }
+        .Hero div h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+           
+        }
+        .Hero div p {
+            font-size: 1.2rem;
+            color: #b9b9b9;
+           margin-bottom: 1rem;
+        }
+
+        .Hero div button {
+            padding: 10px 20px;
+            border:none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 200px;
+        }
+        .Hero div button:hover {
+            background-color: #3c5dc8;
+            color:#ffffff;
+        }
+        .Hero div img {
+           max-height: 600px;
+           display:block;
+           margin: 0 auto;
+           width: auto;
+           border-radius: 20px;
+           object-fit: cover;
+           box-shadow: 0 0 10px white;
+        
+         
+        }
+        .Hero div img:hover {
+           transform: rotate(10deg);
+           transition: all 0.5s ease-in-out
+        }
+
+        .logo-text {
+            text-align: center;
+            margin: 20px;
+            font-size: 42px;
+            color:#1f2937;
+        }
+        .logo {
+            display:flex;
+            margin:20px 10%;
+            justify-content: space-between;
+            align-items: center;
+            border:2px solid #393939;
+            padding: 40px 80px;
+
+        }
+        .logo div img {
+            width: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+
+        .three-card {
+            margin:20px 10%;
+            display:flex;
+            justify-content: space-evenly;
+            border: 2px solid black;
+            padding:40px 80px;
+            box-shadow: 0 0 10px black;
+        }
+        .card {
+            border: 2px solid black;
+            width:25%;
+            border-radius: 15px;;
+            text-align: center;
+            padding:20px;
+            box-shadow: 0 0 10px black;
+        }
+        .card img {
+            width: 200px;
+            object-fit: cover;
+            border-radius: 20px;
+            box-shadow: 0 0 7px black;
+        }
+        h3 {
+            margin:20px 0;
+        }
+        .card p {
+            margin:20px 0;
+        }
+
+        /* media query */
+        /* Responsive styling */
+
+ @media screen and (min-width: 977px) and (max-width: 1200px) {
+    .three-card {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+        padding: 40px 60px;
+    }
+
+    .card {
+        flex: 0 0 30%;
+        max-width: 320px;
+        min-width: 280px;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 976px) {
+    nav {
+        flex-direction: column;
+        padding: 20px 40px;
+        gap: 10px;
+    }
+
+    nav div ul {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .Hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px;
+    }
+
+    .Hero div {
+        width: 100%;
+    }
+
+    .Hero div img {
+        max-height: 400px;
+        margin-top: 20px;
+    }
+
+    .logo {
+        flex-direction: column;
+        padding: 30px 40px;
+    }
+
+    .logo div img {
+        width: 150px;
+        margin-bottom: 20px;
+    }
+
+    .three-card {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        padding: 30px 20px;
+    }
+
+    .card {
+        flex: 0 0 calc(50% - 40px); /* Two cards per row with gap */
+        max-width: 320px;
+        min-width: 260px;
+        margin-bottom: 20px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        border-radius: 10px;
+    }
+
+    .card img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+}
+
+/* For mobile: max-width 600px */
+@media screen and (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        padding: 15px 20px;
+        gap: 10px;
+    }
+
+    nav div ul {
+        flex-direction: column;
+        gap: 8px;
+        align-items: center;
+    }
+
+    .Hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px;
+    }
+
+    .Hero div {
+        width: 100%;
+    }
+
+    .Hero div h1 {
+        font-size: 2rem;
+    }
+
+    .Hero div p {
+        font-size: 1rem;
+    }
+
+    .Hero div button {
+        width: 100%;
+    }
+
+    .Hero div img {
+        max-height: 300px;
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .logo-text {
+        font-size: 28px;
+        margin: 10px;
+    }
+
+    .logo {
+        flex-direction: column;
+        padding: 20px;
+        overflow-x: auto;
+        white-space: nowrap;
+        border: 2px solid black;
+
+    }
+
+    .logo div img {
+        width: 120px;
+        margin-bottom: 10px;
+        display: inline-block;
+        height: 100px;
+        margin-right: 20px;
+        border-radius: 10px;
+        object-fit: contain;
+    }
+
+    .three-card {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .card {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .card img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+    </style>
+</head>
+<body>
+    <nav>
+        <div>
+            <p>My logo</p>
+        </div>
+        <div>
+            <ul>
+                <li>Home</li>
+                <li>About US</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <div>
+            <button>
+                Sign Up
+            </button>
+            <button>
+                Sign in
+            </button>
+        </div>
+
+    </nav>
+
+    <section class="Hero">
+        <div>
+            <h1>Hero Title</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, asperiores exercitationem? Expedita quidem sapiente, eius autem laboriosam pariatur reiciendis consequuntur Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, eum?</p>
+            <button>Sign up</button>
+        </div>
+        <div>
+            <img 
+            src="https://images.pexels.com/photos/30712283/pexels-photo-30712283/free-photo-of-casual-young-adult-leaning-on-outdoor-staircase.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="">
+        </div>
+
+    </section>
+    <h2 class="logo-text">Our Clients</h2>
+    <section class="logo">
+        <div>
+            <img src="https://images.pexels.com/photos/1337380/pexels-photo-1337380.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="">
+        </div>
+        <div>
+            <img src="https://images.pexels.com/photos/430205/pexels-photo-430205.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="">
+        </div>
+        <div>
+            <img src="https://images.pexels.com/photos/1337380/pexels-photo-1337380.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="">
+        </div>
+        <div>
+            <img src="https://images.pexels.com/photos/430205/pexels-photo-430205.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="">
+        </div>
+        <div>
+            <img src="https://images.pexels.com/photos/1337380/pexels-photo-1337380.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="">
+        </div>
+    </section>
+
+    <section class="three-card">
+        <div class="card">
+            <img src="https://images.pexels.com/photos/2287252/pexels-photo-2287252.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="">
+            <h3>Card Title</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In repudiandae ut voluptatibus dignissimos necessitatibus! Inventore quod vitae quam repellat iusto!</p>
+        </div>
+        <div class="card">
+            <img src="https://images.pexels.com/photos/1043473/pexels-photo-1043473.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="">
+            <h3>Card Title</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In repudiandae ut voluptatibus dignissimos necessitatibus! Inventore quod vitae quam repellat iusto!</p>
+        </div>
+        <div class="card">
+            <img src="https://images.pexels.com/photos/2287252/pexels-photo-2287252.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="">
+            <h3>Card Title</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In repudiandae ut voluptatibus dignissimos necessitatibus! Inventore quod vitae quam repellat iusto!</p>
+        </div>
+    </section>
+</body>
+</html>
