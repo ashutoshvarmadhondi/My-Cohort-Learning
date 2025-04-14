@@ -5,6 +5,6 @@
 2. Directly open the calculator.html file and use it
 
 # Features 
-1. Dark mode and light mode are available
+1. Dark mode and light mode
 2. Hold the calculator and drag anywhere in the window
 3. Works perfectly as Calculator 
