@@ -1,4 +1,4 @@
-For running the Calculator application
+# For running the Calculator application
 
 
 1. Ensure that calculator.html, calculator.js and style.js are in one folder(calulator folder)
