@@ -1,4 +1,113 @@
 * {
     margin:0;
     padding:0;
+    box-sizing: border-box;
 }
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+:root {
+    --bg-color: #ffffff;
+    --text-color: #000000;
+    --calc-bg: #f4f4f4;
+    --button-bg: #e0e0e0;
+  }
+  
+  body.dark-mode {
+    --bg-color: #1e1e1e;
+    --text-color: #ffffff;
+    --calc-bg: #1e1e1e;
+    --button-bg: #323131;
+  }
+
+body {
+    font-family: sans-serif;
+    align-items: center;
+    overflow: hidden;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: all 0.3s ease;
+}
+.page-body {
+    display: flex;
+    justify-content: center;
+    min-height: calc(102vh - 102px); /* adjust height if header takes up space */
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+  
+.container {
+    padding:20px 0;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: block;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    
+}
+#calculator-wrapper {
+    position: absolute;
+    cursor: move; /* Optional: changes cursor to move */
+    z-index: 9999;
+    background-color: var(--calc-bg);
+    color: var(--text-color);
+    border-radius: 10px;
+    box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.2);
+   
+  }
+
+.con{
+    padding: 30px;
+   
+}
+.input-group {
+    justify-content: center;
+    display:flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+ }
+ .input-container input {
+    height:60px;
+    width:180px;
+    font-weight: bold;
+    font-size:1.1rem;
+    margin-right: 10px;
+    border: 2px solid black;
+    
+ }
+.form-control {
+    padding:20px 0;
+    direction: ltr;
+    text-align: right;
+    align-items: flex-end;
+    caret-color: transparent;
+    border: 2px solid black;
+}
+
+.btn.btn-danger {
+    padding:15px 20px;
+    border-radius: 50px;
+    
+}
+
+.btn-group button{
+    padding: 15px 25px;
+    border: 0.5px solid black;
+    border-radius: 50px;
+    margin:3px 3px;
+}
+
+.inner-container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+
+}
+
+
+
+
