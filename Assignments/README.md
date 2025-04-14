@@ -1,1 +1,2 @@
-[Calculator Application](Assignments/Calculator/readme.md)
+# Calculator Application
+[Calculator Application](Calculator/readme.md)
