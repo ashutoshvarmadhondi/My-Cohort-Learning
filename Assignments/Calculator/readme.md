@@ -7,4 +7,5 @@
 # Features 
 1. Dark mode and light mode
 2. Hold the calculator and drag anywhere in the window
-3. Works perfectly as Calculator 
+3. Takes input from both keyboard and screen buttons
+4. Works perfectly as a calculator
