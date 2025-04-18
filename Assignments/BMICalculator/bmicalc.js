@@ -4,16 +4,25 @@ const international_units = document.getElementById('international-units');
 const us_height = document.getElementById('us-height')
 const international_height = document.getElementById('intl-height');
 const weightLabel = document.getElementById('weight-label')
+const weight = document.getElementById('weight')
 
 function updateUnitDisplay() {
     if (us_units.checked) {
       us_height.style.display = 'block';
       international_height.style.display = 'none';
       weightLabel.textContent = 'Pounds (lbs)';
+      document.getElementById('feet').value = '';
+      document.getElementById('inches').value = '';
+      document.getElementById('weight').value = '';
+      document.getElementById('bmi-result').value ='';
     } else if (international_units.checked) {
         us_height.style.display = 'none';
         international_height.style.display = 'block';
         weightLabel.textContent = 'Kilograms (kg)';
+        document.getElementById('feet').value = '';
+        document.getElementById('inches').value = '';
+        document.getElementById('weight').value = '';
+        document.getElementById('bmi-result').innerHTML ='';
     }
   }
   
@@ -84,7 +93,7 @@ const calculateButton = document.getElementById('calc-button');
         Your BMI is: <strong>${result}</strong> (${category})
       </p>
       <hr>
-      <div style="text-align: left; font-size: 16px;">
+      <div style="text-align: left; font-size: 16px; margin-bottom: 20px;">
         <strong>BMI Categories:</strong><br>
         🔵 Underweight: &lt; 18.5<br>
         🟢 Normal / Healthy: 18.5 – 24.9<br>
