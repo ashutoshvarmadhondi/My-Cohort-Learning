@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+header {
+    text-align: center;
+    padding: 20px 0;
+    color: aliceblue;
+    background-color: #0273eb;
+}
+section {
+    margin-top: 50px;
+  
+}
+
+.container {
+    border: 1px solid black;
+    display: block;
+   
+}
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 6px;
+    color: #333;
+    font-size: 15px;
+}
+
+#feet, #centimeters  {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  font-size: 16px;
+  width: 100%;
+  max-width: 300px;
+  transition: border-color 0.3s ease;
+  width: 20%;
+}
+#feet:focus, #weight:focus,#inches:focus, #centimeters:focus{
+    border-color: #007bff;
+    box-shadow: 0 0 0 2px #007bff40;
+  }
+
+  #weight, #inches {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    font-size: 16px;
+    width: 100%;
+    max-width: 300px;
+    transition: border-color 0.3s ease;
+    width: 20%;
+  }
+
+.unit-selction {
+    accent-color: #007bff; /* changes color in modern browsers */
+    margin-right: 5px;
+}
+.weight-selection {
+    margin-top: 20px;
+}
+#international-units {
+    margin-left: 30px;
+}
+.btn.btn-link {
+    margin-left: 120px;
+}
+#weight {
+    margin-bottom: 30px;
+}
+
+.btn.btn-primary {
+    margin-bottom: 20px;
+}
