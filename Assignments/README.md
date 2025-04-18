@@ -14,5 +14,11 @@
 [2-BMI-Calculator Application](BMICalculator/)
 
 <a href="https://github.com/ashutoshvarmadhondi/My-Cohort-Learning/tree/main/Assignments/BMICalculator" target="_blank">
-  <img src="BMICalculator/assets/bmi-calc.png" alt="Calculator-light" width="400">
+  <img src="BMICalculator/assets/bmi-calc.png" width="400">
+</a>
+
+[3-Rating Application](Rating/)
+
+<a href="https://github.com/ashutoshvarmadhondi/My-Cohort-Learning/tree/main/Assignments/Rating" target="_blank">
+  <img src="Rating/Assets/rating.png" width="400">
 </a>
