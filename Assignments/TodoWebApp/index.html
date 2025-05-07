@@ -9,18 +9,18 @@
 <body>
     <h1 class = "H1">Todo-App</h1>
     
-    <div id = "todo-box">
-        <div id = "todo-innerbox">
-            <br>
-            <br>
-            <input id = "to-do-input"placeholder = "Enter the to-do Task" type="text">
-            <button id ="Add-Button">Add</button>
+    <div id="todo-box">
+        <div id="todo-content">
+            <div id="todo-innerbox">
+                <input id="to-do-input" placeholder="Enter the to-do Task" type="text">
+                <button id="Add-Button">Add</button>
+            </div>
+    
+            <ul id="ul" style="display:none;">
+                <!-- Tasks will appear here -->
+            </ul>
+            <div id="remove-all-container"></div>
         </div>
-
-        <ul id = "ul">
-
-        </ul>
-    </div>
     </div>
     <script src = script.js></script>
 </body>
