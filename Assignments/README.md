@@ -19,6 +19,6 @@
 
 [3-Rating Application](Rating/)
 
-<a href="https://github.com/ashutoshvarmadhondi/My-Cohort-Learning/tree/main/Assignments/Rating" target="_blank">
-  <img src="Rating/Assets/rating.png" width="400">
+<a href="https://github.com/ashutoshvarmadhondi/My-Cohort-Learning/tree/main/Assignments/TodoWebApp" target="_blank">
+  <img src="TodoWebApp/Assets/todo.png" width="400">
 </a>
