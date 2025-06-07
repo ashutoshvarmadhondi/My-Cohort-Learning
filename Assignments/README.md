@@ -1,4 +1,11 @@
 # Assignments
+[1-CSS Assignment](css-1/)
+
+<a href="https://github.com/ashutoshvarmadhondi/My-Cohort-Learning/tree/main/Assignments/css-1" target="_blank">
+  <img src="css-1/Assets/Screenshot 2025-06-06 at 9.51.26 PM.png" alt="Website_css_look" width="400">  
+</a>
+<br>
+
 [1-Calculator Application](Calculator/)
 
 <a href="https://github.com/ashutoshvarmadhondi/My-Cohort-Learning/tree/main/Assignments/Calculator" target="_blank">
