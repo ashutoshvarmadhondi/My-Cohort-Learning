@@ -6,6 +6,12 @@
   <img src="css-1/Assets/Screenshot 2025-06-06 at 9.51.26 PM.png" alt="Website_css_look" width="400">  
 </a>
 
+[2-CSS Assignment](css-2/)
+
+<a href="https://github.com/ashutoshvarmadhondi/My-Cohort-Learning/tree/main/Assignments/css-2" target="_blank">
+  <img src="css-2/assets/Screenshot 2025-06-10 at 9.35.50 PM.png" alt="Website_css_look-2" width="400">  
+</a>
+
 # JavaScript Assignments
 [1-Calculator Application](Calculator/)
 
