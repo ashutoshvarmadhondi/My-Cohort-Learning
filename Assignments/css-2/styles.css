@@ -1,0 +1,182 @@
+:root {
+  --primary-blue: #3b82f6;
+  --primary-blue-dark: #2563eb;
+  --gray-800: #1f2937;
+  --neutral-400: #9ca3af;
+  --neutral-900: #111827;
+
+  /* Dark mode variables */
+  --bg-dark: #111827;
+  --text-dark: #ffffff;
+  --border-dark: #374151;
+}
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  width: 80%;
+  margin:0 auto;
+  overflow-x: hidden;
+}
+
+.hero {
+  width:100%
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+  justify-content: center;
+  
+}
+.content-col h1 {
+  font-size: 80px;
+ 
+}
+
+.content-col p {
+  font-size: 25px;
+  
+}
+
+.cta-group {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+
+ 
+}
+#hero-input{
+  font-size: 16px;
+  padding: 14px 16px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  outline: none;
+  width: 260px;
+  color: #333;
+  text-align: left;
+}
+
+
+input[type='text'] {
+  font-size: 16px;
+  border: 1px solid #ada4a4;
+  border-radius: 6px;
+}
+#hero-input::placeholder {
+  text-align: left;
+  color: #999;
+}
+.demo-button {
+  padding: 14px 24px;
+  background-color: #2979ff;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.demo-button:hover {
+  background-color: #1565c0;
+}
+
+.brands-section {
+  margin-top: 70px;
+}
+
+.trusted-by {
+  text-transform: uppercase;
+}
+
+.brand-logos {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 40px; 
+  flex-wrap: wrap;
+}
+
+
+.hero-image {
+  margin-top: 50px;
+  height: 550px;
+  width:750px;
+  border-radius: 20px;
+ 
+}
+
+@media (min-width: 640px) {
+  .hero {
+    
+  }
+
+  .content-col h1 {
+
+  }
+
+  .cta-group {
+  }
+
+  .demo-button {
+  }
+
+  .input-wrapper {
+  }
+
+  input[type='text'] {
+  }
+}
+
+@media (min-width: 768px) {
+  .content-col h1 {
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero {
+  }
+
+  .hero-grid {
+  }
+
+  .content-col h1 {
+  }
+
+  .cta-group {
+  }
+
+  .brands-section {
+  }
+
+  .image-col {
+  }
+}
+
+@media (min-width: 1280px) {
+  .hero-grid {
+    gap: 3rem;
+  }
+}
+
+.dark-mode-toggle {
+  background-color: #2979ff;
+  padding: 10px 22px;
+  color: #ffffff;
+  font-size: 20px;
+  border-radius: 10px;
+  float: right;
+  margin-top: 40px;
+  margin-bottom: 25px;
+  cursor: pointer;
+
+}
+
+.dark-mode-toggle:hover {
+  background-color: #1565c0;
+}
